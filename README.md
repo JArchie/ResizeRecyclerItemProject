@@ -7,3 +7,5 @@
 3、自定义高可用高性能的Webview加载二级文章详情
 4、适配谷歌最新的AndroidX
 文章详情：https://blog.csdn.net/JArchie520/article/details/79009017
+演示效果：
+ ![image]( https://github.com/JArchie/ResizeRecyclerItemProject/blob/master/app/src/main/res/images/icon_luping.gif)
