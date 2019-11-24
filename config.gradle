@@ -1,0 +1,28 @@
+ext {
+    //Android
+    android = [
+            compileSdkVersion: 29,
+            buildToolsVersion: "29.0.2",
+            applicationId    : "com.jarchie.resizeitem",
+            minSdkVersion    : 19,
+            targetSdkVersion : 29,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+    //依赖版本
+    depVersion = [
+            appcompat: "1.0.2",
+            recyclerview: "1.0.0",
+            okgo     : "3.0.4",
+            gson     : "2.8.5",
+    ]
+
+    //依赖配置
+    dependencies = [
+            appcompat   : "androidx.appcompat:appcompat:${depVersion.appcompat}",
+            recyclerview: "androidx.recyclerview:recyclerview:${depVersion.recyclerview}",
+            okgo        : "com.lzy.net:okgo:${depVersion.okgo}",
+            gson        : "com.google.code.gson:gson:${depVersion.gson}",
+    ]
+}

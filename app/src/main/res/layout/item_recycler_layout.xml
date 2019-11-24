@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/mTopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            tools:text="标题" />
+
+        <TextView
+            android:id="@+id/mSource"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mTitle"
+            android:layout_alignStart="@+id/mTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            tools:text="来源" />
+
+        <ImageView
+            android:id="@+id/mRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/icon_right" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mBottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:alpha="0"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorE9" />
+
+        <TextView
+            android:id="@+id/mReferee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            tools:text="推荐人" />
+
+        <TextView
+            android:id="@+id/mLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            tools:text="www.baidu.com" />
+    </LinearLayout>
+
+</LinearLayout>
